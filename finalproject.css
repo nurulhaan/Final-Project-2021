@@ -1,0 +1,81 @@
+body {
+    background-color: white; 
+    margin: 0%;}
+h2 {text-align: center;font-family: 'Roboto Mono', monospace;}
+ul {
+    list-style-type: none;
+    margin: 0; padding: 0; 
+    overflow: hidden; 
+    background-color: #ccc;}
+li {
+    float: right; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;}
+li a {
+    display: block; 
+    color: white; 
+    text-align: center; padding: 14px 16px; text-decoration: none;}
+li a:hover:not(.active) {
+    background-color: #343a40; 
+    font-family: 'Roboto', sans-serif;}
+.active {
+    font-family: 'Poppins', sans-serif;}
+img {
+    display: block;
+    margin: auto;
+    width: 25%;
+    height: 25%;
+    }
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 20px;
+    margin-top: 25px;
+    }
+table {
+    border: 2px solid #343a40;
+    border-radius: 12px;
+    padding: 5px;
+    }
+  .judul{justify-content: center;}
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        transition: 0.4s;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #ccc; 
+      }
+      
+      .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+      }
+      .pengalaman{margin-left: 100px;}
+      .Minat{font-size: 30px;}
+      @media only screen and (min-width: 768px) {
+        /* For desktop: */
+        .col-3 {width: 25%;}
+      }
+      .ContentMinat{font-size: 30px;}
+      div.gallery {
+        margin: 5px;
+        float: left;
+        width: 180px;
+      }
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }

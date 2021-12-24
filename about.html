@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="finalproject.css">
+    
+</head>
+<body>
+    <div>
+    <ul>
+    <li><a href="about.html">about</a></li>
+    <li><a href="project.html">project</a></li>
+    <li style="float:left"><a class="active">JUNG JAEHYUN</a></li>
+    </ul>
+
+    </div>
+    <div>
+    <img src="Jaehyun.png" alt="Jaehyun" style="justify-content: center">
+    <p> Arsitek konstruksi profesional dengan pengalaman kerja selama 8 tahun. Berpengalaman dalam pembangunan perumahan elit di Surabaya seperti Pakuwon, Citraland, dan Graha Family. Berhasil membuat rincian anggaran proyek dengan tepat dan efektif sehingga meminimalisir pengeluaran sebanyak 30%.</p>
+    </div>
+    <div class="resume">
+        <table class="biodata"; style="margin-left: auto; margin-right: auto">
+            <tr><th class="judul">B I O D A T A</th></tr>
+            <tr><td>Nama   </td><td>Jung Jaehyun</td></tr>
+            <tr><td>TTL   </td><td>Bandung,14 Februari 1997</td></tr>
+            <tr><td>Alamat</td><td>Sawangan,Jawa Barat, Indonesia</td></tr>
+            <tr><td>Pendidikan</td><td>Universitas Parahyangan</td></tr>
+            <tr><td>Jurusan</td><td>Teknik Arsitektur</td></tr>
+        </table>
+        <h2>Daftar Riwayat Hidup</h2>
+
+        <button class="accordion">Kemampuan dan Minat</button>
+        <div class="panel">
+            <div class="gallery">
+                <img src="1620154405_archicad.png" alt="archicad" width="300" height="100">
+            </div>
+            <div class="gallery">
+                <img src="2560px-AutoCad_logo.svg.png" alt="autocad" width="300" height="100">
+            </div>
+            <div class="gallery">
+                <img src="download.png" alt="vector" width="300" height="100">
+            </div>
+            <div class="gallery">
+                <img src="chief-architect-logo.png" alt="chiefarch" width="300" height="100">
+            </div>
+            <div class="gallery">
+                <img src="sketchup-logo-5248E6166E-seeklogo.com.png" alt="sketup" width="300" height="100">
+            </div>
+            <div class="minat">
+            <h2>Minat</h2>
+            <p>Design/Travel Photography/Travelling.</p>
+        </div>
+        
+        <button class="accordion">Pendidikan</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        
+        <button class="accordion">Pengalaman</button>
+        <div class="pengalaman">
+          <p>Bekerja sama dengan tim pembangunan dan arsitek konstruksi lainnya sampai proses pembangunan berakhir<br>Merancang desain bangunan sesuai dengan keinginan klien dan memberikan saran serta penjelasan kepada klien selama proses pembangunan<br>Berhasil menghemat 30% pengeluaran dengan merancang anggaran yang tepat dan efektif.</p>
+        </div>
+        
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+        
+</body>
+</html>
